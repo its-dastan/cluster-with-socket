@@ -1,0 +1,26 @@
+{
+  "name": "cluster-with-socket",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bhagabati-prasad/cluster-with-socket.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bhagabati-prasad/cluster-with-socket/issues"
+  },
+  "homepage": "https://github.com/bhagabati-prasad/cluster-with-socket#readme",
+  "dependencies": {
+    "cluster": "^0.7.7",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "socket.io": "^4.2.0"
+  }
+}
