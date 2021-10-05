@@ -1,4 +1,4 @@
 # cluster-with-socket
 
-- npm i cluster
-- npm i socket.io
+- npm install cluster
+- npm install socket.io
